@@ -1,0 +1,10 @@
+,precision,recall,f1-score,support
+Arrhythmia,0.8179,0.8324,0.8251,340.0
+Cardiomyopathy,0.7093,0.6536,0.6803,280.0
+Coronary Artery Disease,0.7616,0.7722,0.7669,360.0
+Healthy Control,0.9967,0.9967,0.9967,300.0
+Heart Failure,0.8365,0.8156,0.8259,320.0
+Hypertension,0.8377,0.8775,0.8571,400.0
+accuracy,0.8275,0.8275,0.8275,0.8275
+macro avg,0.8266,0.8247,0.8253,2000.0
+weighted avg,0.8263,0.8275,0.8266,2000.0

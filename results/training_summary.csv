@@ -1,0 +1,9 @@
+,best_params,cv_accuracy_mean,cv_accuracy_std,train_time_s
+Logistic Regression,"{'C': 10, 'solver': 'saga'}",0.8005,0.0141,4.0
+Decision Tree,"{'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 2}",0.6848,0.0123,0.4
+Random Forest,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}",0.7912,0.0104,5.4
+XGBoost,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}",0.7951,0.0141,71.6
+LightGBM,"{'max_depth': None, 'n_estimators': 200}",0.765,0.0089,2.6
+SVM,"{'C': 1, 'kernel': 'rbf'}",0.8091,0.0104,15.4
+KNN,"{'n_neighbors': 11, 'weights': 'distance'}",0.7714,0.0091,0.4
+Naive Bayes,{'var_smoothing': 1e-09},0.7982,0.0116,0.1
